@@ -676,17 +676,26 @@
 
   to {
     opacity: 1;
-    transform: none;
+    transform: scale(1.1);
   }
 }
 
 .fadeInUp {
   animation-name: fadeInUp;
-  animation-delay: 8s;
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
 }
 
 .fadeInUp:hover {
   animation-play-state: running;
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -ms-transform:scale(1.2);
+  -o-transform:scale(1.2);
+  transform:scale(1.1);
 }
 
 @keyframes fadeInUpBig {
