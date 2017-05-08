@@ -37,7 +37,7 @@ header {
 }
 
 #sub-head {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway';
   text-align: center;
   padding-top: 54px;
   padding-left: 400px;
@@ -48,11 +48,12 @@ header {
 #divider {
   text-align: center;
   padding-top: 400px;
+  font-weight: bold;
   padding-bottom: 200px;
 }
 
 #pricing {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway';
   font-size: 38px;
   text-align: center;
   padding-bottom: 80px;
@@ -61,22 +62,28 @@ header {
 
 /* PRICING */
 
+#quote {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: black;
+}
+
 #pricing-standard {
-  font-family: monaco;
+  font-family: 'Raleway';
   color: #777777;
   text-align: center;
   padding-bottom: 50px;
 }
 
 #pricing-premium {
-  font-family: monaco;
+  font-family: 'Raleway';
   color: #58CD11;
   text-align: center;
   padding-bottom: 50px;
 }
 
 #pricing-deluxe {
-  font-family: monaco;
+  font-family: 'Raleway';
   color: #DCA21C;
   text-align: center;
 }
