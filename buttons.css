@@ -180,8 +180,76 @@ button.button:disabled {
   text-shadow: none; }
   /* line 113, ../scss/partials/_buttons.scss */
   .button-flat:hover, .button-flat:focus {
-    background: #fbfbfb; }
+    background: #fff; }
   /* line 116, ../scss/partials/_buttons.scss */
+
+  /*-----------black---------------*/
+  .button-flat-black {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #E2E2E2;
+    border: none;
+    text-shadow: none; }
+    /* line 113, ../scss/partials/_buttons.scss */
+    .button-flat-black:hover, .button-flat-black:focus {
+      background: #7e7e7e;
+      color: white;}
+    /* --------------------black END --------------- */
+
+      /*-----------green---------------*/
+      .button-flat-green {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -moz-transition-property: background;
+        -o-transition-property: background;
+        -webkit-transition-property: background;
+        transition-property: background;
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        background: #D4FFA9;
+        border: none;
+        text-shadow: none; }
+        /* line 113, ../scss/partials/_buttons.scss */
+        .button-flat-green:hover, .button-flat-green:focus {
+          background: #58CD11;
+          color: white;}
+        /* --------------------green END --------------- */
+
+
+          /*-----------gold---------------*/
+          .button-flat-gold {
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -moz-transition-property: background;
+            -o-transition-property: background;
+            -webkit-transition-property: background;
+            transition-property: background;
+            -moz-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            background: #FFE2A9;
+            border: none;
+            text-shadow: none; }
+            /* line 113, ../scss/partials/_buttons.scss */
+            .button-flat-gold:hover, .button-flat-gold:focus {
+              background: #DCA21C;
+              color: white;}
+            /* --------------------gold END --------------- */
+
   .button-flat:active, .button-flat.is-active, .button-flat.active {
     -moz-transition-duration: 0s;
     -o-transition-duration: 0s;
